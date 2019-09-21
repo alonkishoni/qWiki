@@ -11,7 +11,7 @@
     "content_scripts":[
         {
         "matches": ["<all_urls>"],
-        "js": ["content.js"],
+        "js": ["popup_elements.js", "content.js"],
         "match_about_blank": true,
         "all_frames": true
         }
